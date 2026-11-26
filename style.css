@@ -50,3 +50,8 @@ h1 .he{font-size:calc(var(--S) * .78);margin-top:calc(var(--S) * .22)}
 .hero-who{font-size:20px;line-height:1.75;max-width:500px;margin:18px auto 0;color:var(--muted)}
 .hero-call{margin-top:26px}
 @media(max-width:680px){.hero-who{font-size:17px;line-height:1.8;max-width:280px;margin:16px auto 0}.hero-call{margin-top:22px}}
+
+.hero-guide{font-size:13px;letter-spacing:.4px;color:var(--muted);margin-top:34px}
+.call a{margin:0 6px}
+.call a.alt{background:transparent;border:1px solid #a9947d;color:var(--gold)}
+@media(max-width:680px){.hero-guide{font-size:12px;margin-top:28px}.call a{margin:4px 4px}}
