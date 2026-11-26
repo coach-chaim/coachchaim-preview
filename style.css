@@ -47,6 +47,6 @@ h1 .he{font-size:calc(var(--S) * .78);margin-top:calc(var(--S) * .22)}
 @media(min-width:681px) and (max-width:1000px){.brandline{display:block}.brandline img{height:36px}.wordmark{font-size:27px}nav{gap:14px;font-size:11px}.nav-book{padding:11px 12px}}
 @media(min-width:681px) and (max-height:800px){.hero-art{transform:scale(.7) skewY(-13deg);transform-origin:right bottom;right:48px}}@media(min-width:681px) and (max-width:1000px){.hero-art{transform:scale(.6) skewY(-13deg);transform-origin:right bottom;right:24px}}
 
-.hero-who{font-size:15px;line-height:1.7;max-width:440px;margin-top:18px;color:var(--muted)}
+.hero-who{font-size:20px;line-height:1.75;max-width:500px;margin:18px auto 0;color:var(--muted)}
 .hero-call{margin-top:26px}
-@media(max-width:680px){.hero-who{font-size:14px;max-width:280px;margin-top:16px}.hero-call{margin-top:22px}}
+@media(max-width:680px){.hero-who{font-size:17px;line-height:1.8;max-width:280px;margin:16px auto 0}.hero-call{margin-top:22px}}
