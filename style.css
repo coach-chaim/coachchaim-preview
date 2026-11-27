@@ -55,3 +55,6 @@ h1 .he{font-size:calc(var(--S) * .78);margin-top:calc(var(--S) * .22)}
 .call a{margin:0 6px}
 .call a.alt{background:transparent;border:1px solid #a9947d;color:var(--gold)}
 @media(max-width:680px){.hero-guide{font-size:12px;margin-top:28px}.call a{margin:4px 4px}}
+
+.call-note{font-size:12px;letter-spacing:.3px;color:var(--muted);margin:0 0 16px}
+@media(max-width:680px){.call-note{font-size:11px;margin-bottom:14px}}
