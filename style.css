@@ -67,3 +67,20 @@ h1 .he{font-size:calc(var(--S) * .78);margin-top:calc(var(--S) * .22)}
 
 .hero-theme{font-family:var(--display);color:var(--gold);font-size:26px;letter-spacing:1px;margin-top:28px}
 @media(max-width:680px){.hero-theme{font-size:20px;margin-top:24px}}
+
+/* Mobile breathing room (his 1:24 PM note: top feels crowded on mobile) */
+@media(max-width:680px){
+header .wrap{min-height:96px;padding-top:8px;padding-bottom:8px}
+.brandline img{width:min(104px,27vw)}
+nav{font-size:13px;gap:6px}
+.nav-book{padding:8px 9px;font-size:12px}
+.hero .wrap{padding-top:38px;padding-bottom:40px}
+.eyebrow{margin-bottom:22px}
+h1{font-size:54px}
+h1 .he{font-size:40px;margin-top:16px}
+.hero-theme{font-size:18px;margin-top:16px}
+.sub{margin-top:22px}
+.hero-who{margin-top:12px}
+.hero-guide{margin-top:20px}
+.hero-call{margin-top:18px}
+}
